@@ -1,0 +1,110 @@
+/* styles/Education.css */
+.education-section {
+    padding: 5rem 10%;
+    background-color: #f9f9f9;
+  }
+  
+  .education-timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .timeline-item {
+    margin-bottom: 3rem;
+    display: flexbox;
+  }
+  
+  .timeline-content {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 50%;
+  }
+  
+  .timeline-content.left {
+    margin-right: auto;
+  }
+  
+  .timeline-content.right {
+    margin-left: auto;
+  }
+  
+  .timeline-marker {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFD700;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .timeline-content.left .timeline-marker {
+    right: -7.5px;
+  }
+  
+  .timeline-content.right .timeline-marker {
+    left: -7.5px;
+  }
+  
+  .year {
+    color: #FFD700;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .timeline-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .timeline-content h4 {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  @media (max-width: 768px) {
+    .timeline-item {
+      flex-direction: column;
+    }
+  
+    .timeline-content {
+      width: 100%;
+      margin: 0 auto 2rem;
+    }
+  
+    .timeline-content.left,
+    .timeline-content.right {
+      margin: 0 auto 2rem;
+    }
+  
+    .timeline-marker {
+      top: -10px;
+      left: 50% !important;
+      transform: translateX(-50%);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .education-section {
+      padding: 2.5rem 4%;
+    }
+  
+    .timeline-content {
+      padding: 1rem;
+    }
+  
+    .timeline-content h3 {
+      font-size: 1rem;
+    }
+  
+    .timeline-content h4 {
+      font-size: 0.95rem;
+    }
+  
+    .year {
+      font-size: 0.95rem;
+    }
+  }

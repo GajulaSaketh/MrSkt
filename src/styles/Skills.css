@@ -1,0 +1,10 @@
+/* styles/Skills.css */
+.skills-section {
+    padding: 5rem 10%;
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }

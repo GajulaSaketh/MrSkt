@@ -1,0 +1,112 @@
+/* styles/AboutMe.css */
+.about-section {
+    padding: 5rem 10%;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .info-item h3 {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-image-container {
+    flex: 1;
+  }
+  .about-image {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-image img {
+    width: 100%;
+    display: block;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    background-color: #1e3a8a;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+    margin-top: -5px;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #1e3a8a;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+  }
+  
+  .social-link:hover {
+    background-color: #c32ffe;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-section {
+      padding: 3rem 5%;
+    }
+  
+    .about-text p {
+      font-size: 1rem;
+    }
+  
+    .social-links {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-section {
+      padding: 2rem 3%;
+    }
+  
+    .about-text p {
+      font-size: 0.95rem;
+      text-align: justify;
+    }
+  
+    .info-item h3 {
+      font-size: 1rem;
+    }
+  
+    .social-link {
+      width: 35px;
+      height: 35px;
+      font-size: 1rem;
+    }
+  }

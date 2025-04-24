@@ -1,0 +1,77 @@
+/* styles/Hero.css */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 51, 0.596), rgba(0, 0, 51, 0.605)),url('/PortfolioHomeImage.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .hero-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  .accent-dot {
+    color: #fece2f;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    background-color: #fece2f;
+    color: #FFFFFF;
+    padding: 0.8rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .download-btn:hover {
+    background-color: #FFD700;
+  }
+
+
+  /* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .download-btn {
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .download-btn {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}
