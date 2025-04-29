@@ -4,7 +4,7 @@ import "../styles/DataFactory.css";
 
 const DataFactory = () => {
   return (
-    <div className="mobile-ui-container">
+    <div className="datafactory-container">
       <h1>Data UI Design</h1>
       <p>Welcome to the Mobile UI Design page!</p>
     </div>

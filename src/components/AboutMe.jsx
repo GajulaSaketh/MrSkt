@@ -33,13 +33,13 @@ const AboutMe = () => {
             {/* <a href="#" className="social-link">
               <FaFacebookF />
             </a> */}
-            <a href="https://www.instagram.com/saketh_gajula/" className="social-link">
+            <a href="https://www.instagram.com/saketh_gajula/" target="_blank" className="social-link">
               <FaInstagram />
             </a>
-            <a href="https://twitter.com/saketh_gajula" className="social-link">
+            <a href="https://twitter.com/saketh_gajula" target="_blank" className="social-link">
               <FaTwitter />
             </a>
-            <a href="www.linkedin.com/in/gajulasaketh0219" className="social-link">
+            <a href="https://www.linkedin.com/in/gajulasaketh0219" target="_blank" className="social-link">
               <FaLinkedinIn />
             </a>
             {/* <a href="#" className="social-link">

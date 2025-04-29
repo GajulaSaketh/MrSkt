@@ -1,0 +1,13 @@
+/* filepath: d:\Portfolio\port\my-app\src\styles\DataFactory.css */
+.datafactory-container{
+    background-image: url('/page-under-construction.png'); 
+    background-size: contain; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Adjust height as needed */
+    width: 100%; /* Full width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
