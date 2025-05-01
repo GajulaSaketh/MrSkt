@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/MrSkt/static/css/main.02b283f8.chunk.css",
-    "main.js": "/MrSkt/static/js/main.09537ee3.chunk.js",
-    "main.js.map": "/MrSkt/static/js/main.09537ee3.chunk.js.map",
+    "main.js": "/MrSkt/static/js/main.82b1bf99.chunk.js",
+    "main.js.map": "/MrSkt/static/js/main.82b1bf99.chunk.js.map",
     "runtime-main.js": "/MrSkt/static/js/runtime-main.f5954a66.js",
     "runtime-main.js.map": "/MrSkt/static/js/runtime-main.f5954a66.js.map",
-    "static/js/2.568f6539.chunk.js": "/MrSkt/static/js/2.568f6539.chunk.js",
-    "static/js/2.568f6539.chunk.js.map": "/MrSkt/static/js/2.568f6539.chunk.js.map",
+    "static/js/2.bb2c5db1.chunk.js": "/MrSkt/static/js/2.bb2c5db1.chunk.js",
+    "static/js/2.bb2c5db1.chunk.js.map": "/MrSkt/static/js/2.bb2c5db1.chunk.js.map",
     "static/js/3.af1fc242.chunk.js": "/MrSkt/static/js/3.af1fc242.chunk.js",
     "static/js/3.af1fc242.chunk.js.map": "/MrSkt/static/js/3.af1fc242.chunk.js.map",
     "index.html": "/MrSkt/index.html",
-    "precache-manifest.f431fcc1a53ad1aafab46a50db085668.js": "/MrSkt/precache-manifest.f431fcc1a53ad1aafab46a50db085668.js",
+    "precache-manifest.6d7b0f7e1600b2f5d87d5cd62521c3d3.js": "/MrSkt/precache-manifest.6d7b0f7e1600b2f5d87d5cd62521c3d3.js",
     "service-worker.js": "/MrSkt/service-worker.js",
     "static/css/main.02b283f8.chunk.css.map": "/MrSkt/static/css/main.02b283f8.chunk.css.map",
-    "static/js/2.568f6539.chunk.js.LICENSE.txt": "/MrSkt/static/js/2.568f6539.chunk.js.LICENSE.txt"
+    "static/js/2.bb2c5db1.chunk.js.LICENSE.txt": "/MrSkt/static/js/2.bb2c5db1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f5954a66.js",
-    "static/js/2.568f6539.chunk.js",
+    "static/js/2.bb2c5db1.chunk.js",
     "static/css/main.02b283f8.chunk.css",
-    "static/js/main.09537ee3.chunk.js"
+    "static/js/main.82b1bf99.chunk.js"
   ]
 }
