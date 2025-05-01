@@ -51,9 +51,9 @@ const Contact = () => {
           <div className="contact-info">
             <h3 className="info-heading">Let's talk about everything!</h3>
             <p className="info-description">
-              Don’t like forms? Send me an email <span role="img">👋</span>
+              Don’t like forms? Send me an email <span role="img" aria-label="waving hand">👋</span>
             </p>
-            <div className="info-email"><span role="img">📩</span> sakethgajula19@gmail.com</div>
+            <div className="info-email"><span role="img" aria-label="email">📩</span> sakethgajula19@gmail.com</div>
           </div>
 
           {/* Contact Form */}
