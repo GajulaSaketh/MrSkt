@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MrSkt/static/css/main.02b283f8.chunk.css",
+    "main.js": "/MrSkt/static/js/main.3cb64659.chunk.js",
+    "main.js.map": "/MrSkt/static/js/main.3cb64659.chunk.js.map",
+    "runtime-main.js": "/MrSkt/static/js/runtime-main.d78ae718.js",
+    "runtime-main.js.map": "/MrSkt/static/js/runtime-main.d78ae718.js.map",
+    "static/js/2.f2cc30b6.chunk.js": "/MrSkt/static/js/2.f2cc30b6.chunk.js",
+    "static/js/2.f2cc30b6.chunk.js.map": "/MrSkt/static/js/2.f2cc30b6.chunk.js.map",
+    "static/js/3.1b689e51.chunk.js": "/MrSkt/static/js/3.1b689e51.chunk.js",
+    "static/js/3.1b689e51.chunk.js.map": "/MrSkt/static/js/3.1b689e51.chunk.js.map",
+    "index.html": "/MrSkt/index.html",
+    "precache-manifest.1ccd6187d201e948d7400ba5995a4081.js": "/MrSkt/precache-manifest.1ccd6187d201e948d7400ba5995a4081.js",
+    "service-worker.js": "/MrSkt/service-worker.js",
+    "static/css/main.02b283f8.chunk.css.map": "/MrSkt/static/css/main.02b283f8.chunk.css.map",
+    "static/js/2.f2cc30b6.chunk.js.LICENSE.txt": "/MrSkt/static/js/2.f2cc30b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d78ae718.js",
+    "static/js/2.f2cc30b6.chunk.js",
+    "static/css/main.02b283f8.chunk.css",
+    "static/js/main.3cb64659.chunk.js"
+  ]
+}
