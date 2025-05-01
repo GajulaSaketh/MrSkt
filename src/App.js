@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as  Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import MobileUi from './components/MobileUi';
 import WebApp from './components/WebApp';
@@ -40,6 +40,7 @@ function App() {
 
   return (
     <>
+    <Router>
     <Routes>
     <Route path="/" element={
     <div className="App">
@@ -59,6 +60,7 @@ function App() {
     <Route path="/web-app" element={<WebApp />} />
     <Route path="/data-factory" element={<DataFactory />} />
     </Routes>
+    </Router>
     </>
   );
 }
