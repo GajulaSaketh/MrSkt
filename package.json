@@ -1,8 +1,7 @@
 {
-  "name": "my-app",
+  "name": "Mr_SKT",
   "version": "0.1.0",
   "private": true,
-  
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
