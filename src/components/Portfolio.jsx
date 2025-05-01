@@ -71,7 +71,7 @@ const PortfolioGrid = () => {
              alt={portfolioItems[0].label}
            />
             <div className="portfolio-overlay">
-            <a>{portfolioItems[0].label}</a>
+            <p>{portfolioItems[0].label}</p>
             </div>
           </Link>
           </div>
@@ -83,7 +83,7 @@ const PortfolioGrid = () => {
               alt={portfolioItems[1].label}
             />
             <div className="portfolio-overlay">
-              <a>{portfolioItems[1].label}</a>
+              <p>{portfolioItems[1].label}</p>
             </div>
           </Link>
           </div>
@@ -99,7 +99,7 @@ const PortfolioGrid = () => {
               alt={portfolioItems[2].label}
             />
             <div className="portfolio-overlay">
-              <a>{portfolioItems[2].label}</a>
+              <p>{portfolioItems[2].label}</p>
             </div>
           </Link>
           </div>
