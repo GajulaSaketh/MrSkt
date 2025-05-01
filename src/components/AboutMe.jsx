@@ -36,7 +36,7 @@ const AboutMe = () => {
             <a href="https://twitter.com/saketh_gajula" target="_blank" rel="noopener noreferrer" className="social-link">
               <FaTwitter />
             </a>
-            <a href="https://www.linkedin.com/in/gajulasaketh0219" target="_blank" className="social-link">
+            <a href="https://www.linkedin.com/in/gajulasaketh0219" target="_blank" rel="noopener noreferrer" className="social-link">
               <FaLinkedinIn />
             </a>
           </div>
