@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as  Routes, Route } from "react-router-dom";
 import './App.css';
 import MobileUi from './components/MobileUi';
 import WebApp from './components/WebApp';
@@ -8,7 +8,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
-import Skills from './components/Skills';
 import Skilltest from './components/Skillstest';
 import Experience from './components/Experience';
 import ScrollToTop from './components/ScrollToTop';

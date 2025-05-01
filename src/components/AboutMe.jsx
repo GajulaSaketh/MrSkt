@@ -1,7 +1,7 @@
 // components/AboutMe.jsx
 import React from 'react';
 import '../styles/AboutMe.css';
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
 const AboutMe = () => {
   return (
@@ -30,9 +30,6 @@ const AboutMe = () => {
             <img src="./gimblipic.jpeg" alt="Profile" />
           </div>
           <div className="social-links">
-            {/* <a href="#" className="social-link">
-              <FaFacebookF />
-            </a> */}
             <a href="https://www.instagram.com/saketh_gajula/" target="_blank" className="social-link">
               <FaInstagram />
             </a>
@@ -42,9 +39,6 @@ const AboutMe = () => {
             <a href="https://www.linkedin.com/in/gajulasaketh0219" target="_blank" className="social-link">
               <FaLinkedinIn />
             </a>
-            {/* <a href="#" className="social-link">
-              <FaGithub />
-            </a> */}
           </div>
         </div>
       </div>
