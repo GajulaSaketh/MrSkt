@@ -24,6 +24,12 @@ const Navbar = ({ activeSection }) => {
         <a href="#contact" className={activeSection === 'contact' ? 'active' : ''}>
           CONTACT
         </a>
+        <a href="#blog" className={activeSection === 'blog' ? 'active' : ''}>
+        <p style="font-family: 'Segoe UI', sans-serif; font-weight: 800;">
+            <span style="font-family: 'Courier New', monospace; font-weight: 900;">Bits</span>
+            <span style="font-family: 'Georgia', serif; font-style: italic; margin-left: 4px;">of Me</span>
+        </p>
+        </a>
       </div>
     </nav>
   );
