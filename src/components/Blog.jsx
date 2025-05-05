@@ -35,7 +35,6 @@ const Blog = () => {
         <img src="https://via.placeholder.com/300x200" alt="Image 9" />
       </div>
     </div>
-
     <Link to="/">← Back to Home</Link>
     </section>
   );

@@ -28,8 +28,21 @@ const DataFactory = () => {
   </ul>
 
   <p className="project-section">
-    <strong>Outcome:</strong> Gained a solid understanding of building data pipelines using Azure services, managing data flow from source to sink, and developed a practical foundation for real-world data engineering projects.
+    <strong>:</strong> Gained a solid understanding of building data pipelines using Azure services, managing data flow from source to sink, and developed a practical foundation for real-world data engineering projects.
   </p>
+  <div className="slides-section">
+          <p className="slides-info">
+            📄 If you're interested in seeing the detailed slides I created as part of this self-learning project, you can download/view them here:
+          </p>
+          <a
+            href="https://drive.google.com/drive/folders/1MSlw-IdSrbkuD6h00AuF2sK0msqbyRU-"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="download-slides-btn"
+          >
+            View / Download Slides
+          </a>
+        </div>
 </div>
     </div>
   );
