@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import "../styles/Blog.css";
 
-
 const Blog = () => {
-    
-
   return (
     <section className="blog-section" id="blog">
+      <h1>qwerty</h1>
     <div className="gallery">
       <div className="grid-item large">
         <img src="https://via.placeholder.com/300x200" alt="Image 1" />
@@ -36,6 +35,8 @@ const Blog = () => {
         <img src="https://via.placeholder.com/300x200" alt="Image 9" />
       </div>
     </div>
+
+    <Link to="/">← Back to Home</Link>
     </section>
   );
 };
