@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c10df6a8c4842a320a1a174a3bc68226",
+    "revision": "ae9c421546326db4f1c540cc32f2ab38",
     "url": "/MrSkt/index.html"
   },
   {
-    "revision": "0d6f811d241a72a148b2",
-    "url": "/MrSkt/static/css/main.82934f7f.chunk.css"
+    "revision": "9d022d220fc08031457b",
+    "url": "/MrSkt/static/css/main.ca63974c.chunk.css"
   },
   {
     "revision": "bf522f0ebb39b2e5d073",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MrSkt/static/js/3.fc4e29a3.chunk.js"
   },
   {
-    "revision": "0d6f811d241a72a148b2",
-    "url": "/MrSkt/static/js/main.6b552cff.chunk.js"
+    "revision": "9d022d220fc08031457b",
+    "url": "/MrSkt/static/js/main.75e7fe52.chunk.js"
   },
   {
     "revision": "82a9efe23734cb1726db",
