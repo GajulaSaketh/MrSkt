@@ -46,16 +46,14 @@ import "../styles/Portfolio.css"; // import CSS as needed
 
 
 const PortfolioGrid = () => {
-  // Sample portfolio items data with image paths
   const portfolioItems = [
-    { id: 1, src: "./MobileUi.jpg", label: "ui/ux design", route: "/mobile-ui"},
-    { id: 2, src: "./WebApp.jpg", label: "web development", route: "/web-app" },
-    { id: 3, src: "./AzureDataFactory.png", label: "Azure Data Factory", route: "/data-factory" },
+    { id: 1, src: "/MobileUi.jpg", label: "ui/ux design", route: "/mobile-ui"},
+    { id: 2, src: "/WebApp.jpg", label: "web development", route: "/web-app" },
+    { id: 3, src: "/AzureDataFactory.png", label: "Azure Data Factory", route: "/data-factory" },
   ];
 
   return (
     <section id='portfolio'>
-      
     <div className="portfolio-container">
     <div className="section-heading">
          <h2 className="section-title">portfolio</h2>
