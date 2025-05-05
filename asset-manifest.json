@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/MrSkt/static/css/main.bd326826.chunk.css",
-    "main.js": "/MrSkt/static/js/main.f89d36c5.chunk.js",
-    "main.js.map": "/MrSkt/static/js/main.f89d36c5.chunk.js.map",
-    "runtime-main.js": "/MrSkt/static/js/runtime-main.f5954a66.js",
-    "runtime-main.js.map": "/MrSkt/static/js/runtime-main.f5954a66.js.map",
-    "static/js/2.bb2c5db1.chunk.js": "/MrSkt/static/js/2.bb2c5db1.chunk.js",
-    "static/js/2.bb2c5db1.chunk.js.map": "/MrSkt/static/js/2.bb2c5db1.chunk.js.map",
-    "static/js/3.af1fc242.chunk.js": "/MrSkt/static/js/3.af1fc242.chunk.js",
-    "static/js/3.af1fc242.chunk.js.map": "/MrSkt/static/js/3.af1fc242.chunk.js.map",
+    "main.css": "/MrSkt/static/css/main.82934f7f.chunk.css",
+    "main.js": "/MrSkt/static/js/main.6b552cff.chunk.js",
+    "main.js.map": "/MrSkt/static/js/main.6b552cff.chunk.js.map",
+    "runtime-main.js": "/MrSkt/static/js/runtime-main.b05d9870.js",
+    "runtime-main.js.map": "/MrSkt/static/js/runtime-main.b05d9870.js.map",
+    "static/js/2.fed78729.chunk.js": "/MrSkt/static/js/2.fed78729.chunk.js",
+    "static/js/2.fed78729.chunk.js.map": "/MrSkt/static/js/2.fed78729.chunk.js.map",
+    "static/js/3.fc4e29a3.chunk.js": "/MrSkt/static/js/3.fc4e29a3.chunk.js",
+    "static/js/3.fc4e29a3.chunk.js.map": "/MrSkt/static/js/3.fc4e29a3.chunk.js.map",
     "index.html": "/MrSkt/index.html",
-    "precache-manifest.692be8f044347dd09b962d10bf53ebc7.js": "/MrSkt/precache-manifest.692be8f044347dd09b962d10bf53ebc7.js",
+    "precache-manifest.dc8fc0c45c8b41ee76b04bd6f37b2f09.js": "/MrSkt/precache-manifest.dc8fc0c45c8b41ee76b04bd6f37b2f09.js",
     "service-worker.js": "/MrSkt/service-worker.js",
-    "static/css/main.bd326826.chunk.css.map": "/MrSkt/static/css/main.bd326826.chunk.css.map",
-    "static/js/2.bb2c5db1.chunk.js.LICENSE.txt": "/MrSkt/static/js/2.bb2c5db1.chunk.js.LICENSE.txt"
+    "static/css/main.82934f7f.chunk.css.map": "/MrSkt/static/css/main.82934f7f.chunk.css.map",
+    "static/js/2.fed78729.chunk.js.LICENSE.txt": "/MrSkt/static/js/2.fed78729.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5954a66.js",
-    "static/js/2.bb2c5db1.chunk.js",
-    "static/css/main.bd326826.chunk.css",
-    "static/js/main.f89d36c5.chunk.js"
+    "static/js/runtime-main.b05d9870.js",
+    "static/js/2.fed78729.chunk.js",
+    "static/css/main.82934f7f.chunk.css",
+    "static/js/main.6b552cff.chunk.js"
   ]
 }
