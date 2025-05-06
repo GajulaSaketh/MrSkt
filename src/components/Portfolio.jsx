@@ -41,13 +41,12 @@ import "../styles/Portfolio.css"; // import CSS as needed
 //     </section>
 //   );
 // };
-
 // export default Portfolio;
 
 
 const PortfolioGrid = () => {
   const portfolioItems = [
-    { id: 1, src: "/MobileUi.jpg", label: "ui/ux design", route: "/mobile-ui"},
+    { id: 1, src: "/mobiledesign.jpeg", label: "ui/ux design", route: "/mobile-ui" },
     { id: 2, src: "/WebApp.jpg", label: "web development", route: "/web-app" },
     { id: 3, src: "/AzureDataFactory.png", label: "Azure Data Factory", route: "/data-factory" },
   ];
@@ -85,7 +84,6 @@ const PortfolioGrid = () => {
             </div>
           </Link>
           </div>
-         
         </div>
         
         {/* Right column - one tall item */}

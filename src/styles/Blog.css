@@ -1,45 +1,26 @@
-.blog-section {
-    position: relative;
-  }
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 10px; 
-    padding: 10px;
-  }
-  
-  .grid-item {
-    overflow: hidden; 
-    position: relative;
-    transition: transform 0.3s ease; 
-  }
-  
-  .grid-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    transition: transform 0.3s ease; 
-  }
-  
-  .grid-item:hover {
-    transform: scale(1.05); 
-  }
-  
-  .grid-item:hover img {
-    transform: scale(1.1); 
-  }
-  
-  .grid-item.large {
-    grid-column: span 2; 
-    grid-row: span 2; 
-  }
-  
-  .grid-item.medium {
-    grid-column: span 1; 
-  }
-  
-  .grid-item.small {
-    grid-column: span 1; 
-    grid-row: span 1;
-  }
-  
+/* BitsOfMe.css */
+.bits-card {
+  background: linear-gradient(135deg, rgb(63, 94, 251), rgb(252, 70, 107));
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.bits-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.bits-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bits-item {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}

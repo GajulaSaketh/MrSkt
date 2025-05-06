@@ -5,35 +5,22 @@ import "../styles/Blog.css";
 const Blog = () => {
   return (
     <section className="blog-section" id="blog">
-      <h1>qwerty</h1>
-    <div className="gallery">
-      <div className="grid-item large">
-        <img src="https://via.placeholder.com/300x200" alt="Image 1" />
-      </div>
-      <div className="grid-item medium">
-        <img src="https://via.placeholder.com/300x200" alt="Image 2" />
-      </div>
-      <div className="grid-item small">
-        <img src="https://via.placeholder.com/150x150" alt="Image 3" />
-      </div>
-      <div className="grid-item medium">
-        <img src="https://via.placeholder.com/300x200" alt="Image 4" />
-      </div>
-      <div className="grid-item small">
-        <img src="https://via.placeholder.com/150x150" alt="Image 5" />
-      </div>
-      <div className="grid-item large">
-        <img src="https://via.placeholder.com/300x200" alt="Image 6" />
-      </div>
-      <div className="grid-item medium">
-        <img src="https://via.placeholder.com/300x200" alt="Image 7" />
-      </div>
-      <div className="grid-item small">
-        <img src="https://via.placeholder.com/150x150" alt="Image 8" />
-      </div>
-      <div className="grid-item medium">
-        <img src="https://via.placeholder.com/300x200" alt="Image 9" />
-      </div>
+      <div className="bits-card">
+      <h2 className="bits-title">Quick Facts</h2>
+      <ul className="bits-list">
+        <li className="bits-item">
+          <span role="img" aria-label="home">🏡</span>{" "}
+          <strong>Hometown:</strong> Somewhere between <em>cozy cafés</em> and <em>wanderlust</em>.
+        </li>
+        <li className="bits-item">
+          <span role="img" aria-label="music">🎵</span>{" "}
+          <strong>Currently Obsessed With:</strong> <em>Something that hits different at 2 AM — soft when I’m thinking, loud when I’m feeling.</em>
+        </li>
+        <li className="bits-item">
+          <span role="img" aria-label="quote">💬</span>{" "}
+          <strong>Life Motto (for now):</strong> <em>Do it scared.</em>
+        </li>
+      </ul>
     </div>
     <Link to="/">← Back to Home</Link>
     </section>
