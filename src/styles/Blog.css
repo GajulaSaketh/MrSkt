@@ -94,3 +94,54 @@
     opacity: 1;
   }
 }
+
+
+.back-home-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  padding: 8px 16px;
+  background-color: rgb(240, 240, 240);
+  color: #333;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width:fit-content;
+}
+
+.back-home-link:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+
+
+
+.tutorial-button-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.tutorial-description {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.tutorial-button {
+  background-color: rgb(34, 139, 230); 
+  color: #fff;
+  padding: 10px 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(34, 139, 230, 0.3);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.tutorial-button:hover {
+  background-color: rgb(24, 119, 200);
+}

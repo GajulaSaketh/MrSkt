@@ -14,6 +14,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Blog from './components/Blog';
+import Tutorials from './components/Tutorials';
 
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
     <Route path="/web-app" element={<WebApp />} />
     <Route path="/data-factory" element={<DataFactory />} />
     <Route path="/blog" element={<Blog />} />
+    <Route path="/tutorials" element={<Tutorials />} />
     </Routes>
     </Router>
     </>

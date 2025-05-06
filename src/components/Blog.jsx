@@ -17,6 +17,10 @@ const Blog = () => {
           <strong>Currently Obsessed With:</strong> <em>Something that hits different at 2 AM — soft when I’m thinking, loud when I’m feeling.</em>
         </li>
         <li className="bits-item">
+        <span role="img" aria-label="plate with cutlery">🍽️</span>{" "}
+          <strong>Food Style:</strong> <em>Herbivore on Saturdays, full-on carnivore with no regrets every other day.</em>
+        </li>
+        <li className="bits-item">
           <span role="img" aria-label="quote">💬</span>{" "}
           <strong>Life Motto (for now):</strong> <em>Do it scared.</em>
         </li>
@@ -34,8 +38,16 @@ const Blog = () => {
         <div className="ed-wave" />
       </div>
     </div>
-    <Link to="/">← Back to Home</Link>
-    </section>
+    <Link to="/" className="back-home-link">← Back to Home</Link>
+    {/* <div className="tutorial-button-container">
+        <p className="tutorial-description">
+          Want tech insights? Start learning now!
+        </p>
+        <Link to="/tutorials">
+            <button className="tutorial-button">Watch Tutorials</button>
+        </Link>
+    </div> */}
+  </section>
   );
 };
 

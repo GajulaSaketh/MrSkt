@@ -56,7 +56,7 @@ const Navbar = ({ activeSection }) => {
       >
        CONTACT
       </Link>
-      <RouterLink to="/blog" className={activeSection === 'blog' ? 'active' : ''}>
+      <RouterLink to="/blog">
         <p style={{ fontFamily: "'Segoe UI', sans-serif", fontWeight: 800 }}>
         <span style={{ fontFamily: "'Courier New', monospace", fontWeight: 900 }}>Bits</span>
         <span style={{ fontFamily: 'Georgia, serif', fontStyle: 'italic', marginLeft: '4px' }}>of Me</span>
