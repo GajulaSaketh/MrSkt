@@ -22,6 +22,18 @@ const Blog = () => {
         </li>
       </ul>
     </div>
+    <div className="ed-wrapper">
+      <div className="ed-card">
+        <h1 className="ed-title">⚙️ This Page is Under Development</h1>
+        <p className="ed-text">
+          Stay tuned for more updates!
+        </p>
+        <p className="ed-subtext">
+          Coming soon... Please check back later.
+        </p>
+        <div className="ed-wave" />
+      </div>
+    </div>
     <Link to="/">← Back to Home</Link>
     </section>
   );
