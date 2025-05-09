@@ -1,12 +1,35 @@
-.mobile-ui-container{
-    background-image: url('/page-under-construction.png'); /* Path to your image */
-    background-size: contain; /* Ensures the image covers the entire container */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 100vh; /* Adjust height as needed */
-    width: 100%; /* Full width */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.atoz-project-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.project-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.project-details {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 16px;
+  color: #444;
+}
+
+.project-section {
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}

@@ -13,6 +13,9 @@ import Experience from './components/Experience';
 import ScrollToTop from './components/ScrollToTop';
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Blog from './components/Blog';
+import Tutorials from './components/Tutorials';
+
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -59,6 +62,8 @@ function App() {
     <Route path="/mobile-ui" element={<MobileUi />} />
     <Route path="/web-app" element={<WebApp />} />
     <Route path="/data-factory" element={<DataFactory />} />
+    <Route path="/blog" element={<Blog />} />
+    <Route path="/tutorials" element={<Tutorials />} />
     </Routes>
     </Router>
     </>

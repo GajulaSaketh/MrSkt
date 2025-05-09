@@ -1,0 +1,147 @@
+/* BitsOfMe.css */
+.bits-card {
+  background: linear-gradient(135deg, rgb(63, 94, 251), rgb(252, 70, 107));
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.bits-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.bits-list {
+  list-style: none;
+  padding: 0;
+}
+
+.bits-item {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+
+
+
+
+/* UnderDevelopment.css */
+.ed-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #222933, #0f1117);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ed-card {
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid #4de0ff;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(77, 224, 255, 0.3);
+}
+
+.ed-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4de0ff;
+}
+
+.ed-text {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.ed-subtext {
+  font-style: italic;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* Optional: Animation for wave line at bottom */
+.ed-wave {
+  height: 4px;
+  width: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    #4de0ff,
+    #4de0ff 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  margin-top: 1.5rem;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.back-home-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  padding: 8px 16px;
+  background-color: rgb(240, 240, 240);
+  color: #333;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width:fit-content;
+}
+
+.back-home-link:hover {
+  background-color: rgb(220, 220, 220);
+}
+
+
+
+
+.tutorial-button-container {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.tutorial-description {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.tutorial-button {
+  background-color: rgb(34, 139, 230); 
+  color: #fff;
+  padding: 10px 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(34, 139, 230, 0.3);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.tutorial-button:hover {
+  background-color: rgb(24, 119, 200);
+}

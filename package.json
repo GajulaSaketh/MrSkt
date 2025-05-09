@@ -15,6 +15,7 @@
     "react-icons": "^5.5.0",
     "react-router-dom": "^6.30.0",
     "react-scripts": "^3.0.1",
+    "react-scroll": "^1.9.3",
     "web-vitals": "^2.1.4"
   },
   "_old_scripts": {
