@@ -1,6 +1,8 @@
 // components/AboutMe.jsx
 import React from 'react';
 import '../styles/AboutMe.css';
+import myimg from '../assets/Profilepic.jpeg';
+import { Link } from 'react-scroll';  
 import { FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
 const AboutMe = () => {
@@ -20,14 +22,12 @@ const AboutMe = () => {
               <p>sakethgajula19@gmail.com</p>
             </div>
             <div className="info-item">
-              {/* <h3>Website</h3>
-              <p>https://www.frontlinesedutech.com/</p> */}
             </div>
           </div>
         </div>
         <div className="about-image-container">
           <div className="about-image">
-            <img src="./gimblipic.jpeg" alt="Profile" />
+            <img src={myimg} alt="Profile" />
           </div>
           <div className="social-links">
             <a href="https://www.instagram.com/saketh_gajula/" target="_blank" rel="noopener noreferrer" className="social-link">

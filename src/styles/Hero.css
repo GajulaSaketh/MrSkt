@@ -1,6 +1,6 @@
 /* styles/Hero.css */
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 51, 0.596), rgba(0, 0, 51, 0.605)),url('/PortfolioHomeImage.jpg');
+    background-image: linear-gradient(rgba(0, 0, 51, 0.596), rgba(0, 0, 51, 0.605)),url("../assets/PortfolioHomeImage.jpg");
     background-size: cover;
     background-position: center;
     color: white;
