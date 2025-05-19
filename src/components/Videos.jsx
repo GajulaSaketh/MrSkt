@@ -13,7 +13,7 @@ function Videos() {
   useEffect(() => {
     async function getPosts() {
       try {
-        const data = await apiService.get('api/Tutorials/getall');
+        const data = await apiService.get('/api/Tutorials/getall');
         setPosts(data);
       } catch (err) {
         console.error('Failed to fetch posts', err);
