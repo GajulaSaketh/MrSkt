@@ -42,17 +42,17 @@ const Blog = () => {
       </div>
     </div>
     <Link to="/" className="back-home-link">← Back to Home</Link>
-    {/* <div className="tutorial-button-container">
+    <div className="tutorial-button-container">
         <p className="tutorial-description">
           Want tech insights? Start learning now!
         </p>
-        <Link to="/tutorials">
+        <Link to="/tech-gate">
             <button className="tutorial-button">Watch Tutorials</button>
         </Link>
-    </div> */}
-    <Link to="/tech-gate">
+    </div>
+    {/* <Link to="/tech-gate">
             <button className="tutorial-button">Gate</button>
-    </Link>
+    </Link> */}
   </section>
   </>
   );

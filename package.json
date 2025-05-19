@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://localhost:7062",
+  "proxy":"https://mrtech-bgdhf9d2ekhadrgh.canadacentral-01.azurewebsites.net/", 
   "homepage": "https://gajulasaketh.github.io/MrSkt",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
