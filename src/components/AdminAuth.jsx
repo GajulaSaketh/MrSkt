@@ -35,8 +35,8 @@ const AdminAuth = () => {
 
     const payload = { email, password };
     const endpoint = isLogin
-      ? "/api/auth/login"  
-      : "/api/auth/signup";
+      ? "https://mrtech-bgdhf9d2ekhadrgh.canadacentral-01.azurewebsites.net/api/auth/login"  
+      : "https://mrtech-bgdhf9d2ekhadrgh.canadacentral-01.azurewebsites.net/api/auth/signup";
 
     try {
       const res = await axios.post(endpoint, payload);
