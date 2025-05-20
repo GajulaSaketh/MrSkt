@@ -2,7 +2,6 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://mrtech-bgdhf9d2ekhadrgh.canadacentral-01.azurewebsites.net",
   "description": "A personal portfolio website built with React, showcasing projects, skills, and contact information. Designed to highlight my work and experience in web development.",
   "homepage": "https://gajulasaketh.github.io/MrSkt",
   "dependencies": {
