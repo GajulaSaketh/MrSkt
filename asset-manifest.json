@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MrSkt/static/css/main.862ddac2.css",
-    "main.js": "/MrSkt/static/js/main.cdeac33e.js",
+    "main.js": "/MrSkt/static/js/main.70febe58.js",
     "static/js/453.ed3810f9.chunk.js": "/MrSkt/static/js/453.ed3810f9.chunk.js",
     "static/media/PortfolioHomeImage.jpg": "/MrSkt/static/media/PortfolioHomeImage.6de389f1ac8318103506.jpg",
     "static/media/MobileUi.jpg": "/MrSkt/static/media/MobileUi.d9310ca6573c8b06c040.jpg",
@@ -10,11 +10,11 @@
     "static/media/Profilepic.jpeg": "/MrSkt/static/media/Profilepic.92f68b82a964a3bbf100.jpeg",
     "index.html": "/MrSkt/index.html",
     "main.862ddac2.css.map": "/MrSkt/static/css/main.862ddac2.css.map",
-    "main.cdeac33e.js.map": "/MrSkt/static/js/main.cdeac33e.js.map",
+    "main.70febe58.js.map": "/MrSkt/static/js/main.70febe58.js.map",
     "453.ed3810f9.chunk.js.map": "/MrSkt/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.862ddac2.css",
-    "static/js/main.cdeac33e.js"
+    "static/js/main.70febe58.js"
   ]
 }
