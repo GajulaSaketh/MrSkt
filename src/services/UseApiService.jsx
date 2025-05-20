@@ -1,5 +1,5 @@
 import { useAxiosInstance } from './axiosConfig';
-import axios from '../services/useAxiosInstance';
+import axios from '../services/axiosConfig';
 
 export const UseApiService = () => {
  // const axios = useAxiosInstance();
