@@ -34,7 +34,7 @@ function UploadVideo() {
     formData.append('Description', description);
 
     try {
-      const res = await axios.post('/api/Tutorials/upload', formData, {
+      const res = await axios.post('https://mrtech-bgdhf9d2ekhadrgh.canadacentral-01.azurewebsites.net/api/Tutorials/upload', formData, {
         headers: {
             "Authorization": `Bearer ${token}`, 
           'Content-Type': 'multipart/form-data',
