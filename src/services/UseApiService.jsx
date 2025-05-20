@@ -1,13 +1,26 @@
-import { useAxiosInstance } from './axiosConfig';
-import axios from '../services/axiosConfig';
+import axios from 'axios';
 
 export const UseApiService = () => {
  // const axios = useAxiosInstance();
+  // Set your base URL here
+  const baseURL =
+    process.env.NODE_ENV === "development"
+      ? "" // or "http://localhost:3000" if you want
+      : "https://mrtech-bgdhf9d2ekhadrgh.canadacentral-01.azurewebsites.net";
+
+  // Create a local axios instance with the baseURL
+  const axiosInstance = axios.create({
+    baseURL,
+    timeout: 10000,
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  });
 
   const apiService = {
     get: async (endpoint) => {
       try {
-        const response = await axios.get(endpoint);
+        const response = await axiosInstance.get(endpoint);
         return response.data;
       } catch (error) {
         handleError(error);
@@ -17,7 +30,7 @@ export const UseApiService = () => {
 
     post: async (endpoint, data) => {
       try {
-        const response = await axios.post(endpoint, data);
+        const response = await axiosInstance.post(endpoint, data);
         return response.data;
       } catch (error) {
         handleError(error);
@@ -27,7 +40,7 @@ export const UseApiService = () => {
 
     put: async (endpoint, data) => {
       try {
-        const response = await axios.put(endpoint, data);
+        const response = await axiosInstance.put(endpoint, data);
         return response.data;
       } catch (error) {
         handleError(error);
@@ -37,7 +50,7 @@ export const UseApiService = () => {
 
     delete: async (endpoint) => {
       try {
-        const response = await axios.delete(endpoint);
+        const response = await axiosInstance.delete(endpoint);
         return response.data;
       } catch (error) {
         handleError(error);
@@ -47,7 +60,7 @@ export const UseApiService = () => {
 
     patch: async (endpoint, data) => {
       try {
-        const response = await axios.patch(endpoint, data);
+        const response = await axiosInstance.patch(endpoint, data);
         return response.data;
       } catch (error) {
         handleError(error);
