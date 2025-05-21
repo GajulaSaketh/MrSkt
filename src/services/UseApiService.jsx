@@ -5,7 +5,7 @@ export const UseApiService = () => {
   // Set your base URL here
   const baseURL =
     process.env.NODE_ENV === "development"
-      ? "" // or "http://localhost:3000" if you want
+      ? "https://localhost:7062" 
       : "https://mrtech-bgdhf9d2ekhadrgh.canadacentral-01.azurewebsites.net";
 
   // Create a local axios instance with the baseURL

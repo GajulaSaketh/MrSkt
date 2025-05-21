@@ -11,6 +11,7 @@ import Education from './components/Education';
 import Skilltest from './components/Skillstest';
 import Experience from './components/Experience';
 import ScrollToTop from './components/ScrollToTop';
+import AutoScrollToTop from './components/AutoScrollToTop';
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Blog from './components/Blog';
@@ -47,6 +48,7 @@ function App() {
   return (
     <>
     <Router>
+    <AutoScrollToTop />
     <Routes>
     <Route path="/" element={
     <div className="App">

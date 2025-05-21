@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { UseApiService } from '../services/UseApiService';
 import { useNavigate } from 'react-router-dom';
+import "../styles/Videos.css";
 
 function Videos() {
   const [posts, setPosts] = useState([]);
@@ -36,13 +37,23 @@ function Videos() {
     navigate(`/player/${encodedUrl}`);
   };
 
-  if (loading) return <h1>Fetching data...</h1>;
+  if (loading) {
+  return (
+    <div style={{
+      height: '100vh',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }}>
+      <div className="spinner"></div>
+    </div>
+  );
+}
   if (error) return <h1>{error}</h1>;
   if (posts.length === 0) return <h1>No content found.</h1>;
 
   return (
     <div className="post-list">
-      {/* Sticky Search Bar */}
       <div
         style={{
           position: 'sticky',
