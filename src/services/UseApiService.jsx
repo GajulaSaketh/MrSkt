@@ -88,7 +88,7 @@ export const UseApiService = () => {
       console.error('Network Error:', error.request);
     } else {
       console.error('Error:', error.message);
-    }npm 
+    }
   };
 
   const invokeLoginPopup = () => {
