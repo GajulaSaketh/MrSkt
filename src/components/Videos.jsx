@@ -18,7 +18,7 @@ function Videos() {
         setPosts(data);
       } catch (err) {
         console.error('Failed to fetch posts', err);
-        setError('Failed to load data.');
+        setError(err.message ||'Failed to load data.');
       } finally {
         setLoading(false);
       }
