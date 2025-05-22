@@ -18,7 +18,7 @@ function Videos() {
         setPosts(data);
       } catch (err) {
         console.error('Failed to fetch posts', err);
-        setError(err.message ||'Failed to load data.');
+        setError('Oops! Something took too long. Please try again.');
       } finally {
         setLoading(false);
       }
@@ -43,14 +43,15 @@ function Videos() {
       height: '100vh',
       display: 'flex',
       justifyContent: 'center',
-      alignItems: 'center'
+      alignItems: 'center',
+      backgroundColor: 'rgba(0, 0, 0, 0.4)',
     }}>
       <div className="spinner"></div>
     </div>
   );
 }
-  if (error) return <h1>{error}</h1>;
-  if (posts.length === 0) return <h1>No content found.</h1>;
+  if (error) return <h4>{error}</h4>;
+  if (posts.length === 0) return <h5>No content found.</h5>;
 
   return (
     <div className="post-list">
