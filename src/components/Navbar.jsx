@@ -1,17 +1,22 @@
 // components/Navbar.jsx
 import React from 'react';
-import { Link } from 'react-scroll';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as ScrollLink} from 'react-scroll';
+import { HashLink } from 'react-router-hash-link';
+import {useLocation, Link as RouterLink } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 const Navbar = ({ activeSection }) => {
+  const location = useLocation(); 
+  const isHomePage = location.pathname === '/'; 
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="#hero"> Mr_ </a>
+        <a href="#"> Mr_ </a>
       </div>
       <div className="navbar-links">
-      <Link
+        {isHomePage ? (
+          <>
+      <ScrollLink
          to="education"
          smooth={true}
          duration={500}
@@ -19,8 +24,8 @@ const Navbar = ({ activeSection }) => {
         className={activeSection === 'education' ? 'active' : ''}
       >
        EDUCATION
-      </Link>
-      <Link
+      </ScrollLink>
+      <ScrollLink
          to="skills"
          smooth={true}
          duration={500}
@@ -28,8 +33,8 @@ const Navbar = ({ activeSection }) => {
         className={activeSection === 'skills' ? 'active' : ''}
       >
        SKILLS
-      </Link>
-      <Link
+      </ScrollLink>
+      <ScrollLink
          to="experience"
          smooth={true}
          duration={500}
@@ -37,8 +42,8 @@ const Navbar = ({ activeSection }) => {
         className={activeSection === 'experience' ? 'active' : ''}
       >
        EXPERIENCE
-      </Link>
-      <Link
+      </ScrollLink>
+      <ScrollLink
          to="portfolio"
          smooth={true}
          duration={500}
@@ -46,8 +51,8 @@ const Navbar = ({ activeSection }) => {
         className={activeSection === 'portfolio' ? 'active' : ''}
       >
        PORTFOLIO
-      </Link>
-      <Link
+      </ScrollLink>
+      <ScrollLink
          to="contact"
          smooth={true}
          duration={500}
@@ -55,7 +60,17 @@ const Navbar = ({ activeSection }) => {
         className={activeSection === 'contact' ? 'active' : ''}
       >
        CONTACT
-      </Link>
+      </ScrollLink>
+      </>
+        ):(
+          <>
+            <HashLink to="/#education">EDUCATION</HashLink>
+            <HashLink to="/#skills">SKILLS</HashLink>
+            <HashLink to="/#experience">EXPERIENCE</HashLink>
+            <HashLink to="/#portfolio">PORTFOLIO</HashLink>
+            <HashLink to="/#contact">CONTACT</HashLink>
+          </>
+        )}
       <RouterLink to="/blog">
         <p style={{ fontFamily: "'Segoe UI', sans-serif", fontWeight: 800 }}>
         <span style={{ fontFamily: "'Courier New', monospace", fontWeight: 900 }}>Bits</span>

@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 import "../styles/Blog.css";
 
 const Blog = () => {
   return (
+    <>
+    <Navbar/>
     <section className="blog-section" id="blog">
       <div className="bits-card">
       <h2 className="bits-title">Quick Facts</h2>
@@ -39,15 +42,19 @@ const Blog = () => {
       </div>
     </div>
     <Link to="/" className="back-home-link">← Back to Home</Link>
-    {/* <div className="tutorial-button-container">
+    <div className="tutorial-button-container">
         <p className="tutorial-description">
           Want tech insights? Start learning now!
         </p>
-        <Link to="/tutorials">
+        <Link to="/tech-gate">
             <button className="tutorial-button">Watch Tutorials</button>
         </Link>
-    </div> */}
+    </div>
+    {/* <Link to="/tech-gate">
+            <button className="tutorial-button">Gate</button>
+    </Link> */}
   </section>
+  </>
   );
 };
 

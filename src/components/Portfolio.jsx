@@ -1,6 +1,9 @@
 import React from "react"; 
 import { Link } from "react-router-dom";
-import "../styles/Portfolio.css"; // import CSS as needed
+import MobileUi from "../assets/MobileUi.jpg";
+import WebApp from "../assets/WebApp.jpg";
+import AzureDataFactory from "../assets/AzureDataFactory.png";
+import "../styles/Portfolio.css"; 
 
 // const portfolioItems = [
 //   { src: "./MobileUi.jpg", label: "ui/ux design" },
@@ -45,11 +48,11 @@ import "../styles/Portfolio.css"; // import CSS as needed
 
 
 const PortfolioGrid = () => {
-  const portfolioItems = [
-    { id: 1, src: "/mobiledesign.jpeg", label: "ui/ux design", route: "/mobile-ui" },
-    { id: 2, src: "/WebApp.jpg", label: "web development", route: "/web-app" },
-    { id: 3, src: "/AzureDataFactory.png", label: "Azure Data Factory", route: "/data-factory" },
-  ];
+ const portfolioItems = [
+  { id: 1, src: MobileUi, label: "ui/ux design", route: "/mobile-ui" },
+  { id: 2, src: WebApp, label: "web development", route: "/web-app" },
+  { id: 3, src: AzureDataFactory, label: "Azure Data Factory", route: "/data-factory" },
+];
 
   return (
     <section id='portfolio'>
