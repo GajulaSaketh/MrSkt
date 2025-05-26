@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MrSkt/static/css/main.a01a5ac8.css",
+    "main.css": "/MrSkt/static/css/main.a9e59910.css",
     "main.js": "/MrSkt/static/js/main.89b7e8fd.js",
     "static/js/453.ed3810f9.chunk.js": "/MrSkt/static/js/453.ed3810f9.chunk.js",
     "static/media/PortfolioHomeImage.jpg": "/MrSkt/static/media/PortfolioHomeImage.6de389f1ac8318103506.jpg",
@@ -9,12 +9,12 @@
     "static/media/AzureDataFactory.png": "/MrSkt/static/media/AzureDataFactory.fbfc31fd4004b364c755.png",
     "static/media/Profilepic.jpeg": "/MrSkt/static/media/Profilepic.92f68b82a964a3bbf100.jpeg",
     "index.html": "/MrSkt/index.html",
-    "main.a01a5ac8.css.map": "/MrSkt/static/css/main.a01a5ac8.css.map",
+    "main.a9e59910.css.map": "/MrSkt/static/css/main.a9e59910.css.map",
     "main.89b7e8fd.js.map": "/MrSkt/static/js/main.89b7e8fd.js.map",
     "453.ed3810f9.chunk.js.map": "/MrSkt/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a01a5ac8.css",
+    "static/css/main.a9e59910.css",
     "static/js/main.89b7e8fd.js"
   ]
 }
