@@ -12,7 +12,7 @@
   
   .timeline-item {
     margin-bottom: 3rem;
-    display: flexbox;
+    display: flex;
   }
   
   .timeline-content {
